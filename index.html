@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>R.A Soluções Indrustriais</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/73c26b_e1834494e8294e8bb945a1dbee38375d~mv2.jpg/v1/fill/w_149,h_151,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/RA%20COM%20LINHAS.jpg" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <img src="https://static.wixstatic.com/media/73c26b_e1834494e8294e8bb945a1dbee38375d~mv2.jpg/v1/fill/w_149,h_151,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/RA%20COM%20LINHAS.jpg" alt="logoFoto">
         <nav class="menu">
             <ul>
-            <li><a href="">Início</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Sobre</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#sobreNos">Sobre</a></li>
             </ul>
         </nav>
     </header>
     <section>
-        <div class="section1">
+        <div class="section1" id="inicio">
             <div class="fundo">
                 <div class="infos">
                     <img src="https://static.wixstatic.com/media/73c26b_40cab6f41d7b4c27834460f60059e201~mv2.jpg/v1/fill/w_600,h_343,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20COM%20LINHAS%20DE%20BORDA.jpg" alt="logoImpresa">
@@ -26,8 +27,11 @@
                 </div>
             </div>
         </div>
+        <a href="#contactFormContainer" class="btnContato" aria-label="Entrar em contato" title="Entrar em contato">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
     </section>
-    <section class="section2">
+    <section class="section2" id="services">
         <div class="textService">
             <h1>SERVIÇOS</h1>
             <div class="linha"></div>
@@ -61,25 +65,7 @@
         </div>
     </section>
     
-    
-    <section class="section3">
-        <div class="sobreNos">
-            <h1>SOBRE NÓS</h1>
-            <div class="linha2"></div>
-        </div>
 
-        <div class="textSpan">
-            <div>
-                <p>Somos uma empresa idônea e <strong>que honra todos os compromissos com organização, qualidade e muito profissionalismo.</strong> Sempre atendendo as especificações dos clientes nos mais diversos trabalhos que são solicitados por nossas empresas parceiras, proporcionando um atendimento exclusivo e diferenciado.</p>
-            </div>
-            <div>
-                <p><strong>A R.A Soluções Industriais, </strong>tem em seus administradores uma experiência acumulada e adquirida com os ensinamento de seu pai, o  Sr. Gilson Costa, um conceituado ferramenteiro a sua época. Com isso, os irmãos Augusto de Lima e Rafael de Lima possuem na bagagem experiência <strong> em mais de 20 anos de trabalho dedicado neste segmento.</strong></p>
-            </div>
-            <div>
-                <p>Hoje nossa empresa conta com uma equipe de profissionais altamente capacitados, trazendo aos nossos clientes a certeza de um <strong>serviço bem qualificado estando comprometida com todas as metas e exigências estabelecidas.</strong></p>
-            </div>
-        </div>
-    </section>
 
     <section class="section4">
         <div class="textEquipe">
@@ -149,6 +135,27 @@
         
     </section>
 
+    <section class="section3" id="sobreNos">
+        <div class="sobreNos">
+            <h1>SOBRE NÓS</h1>
+            <div class="linha2"></div>
+        </div>
+
+        <div class="textSpan">
+            <div>
+                <p>Somos uma empresa idônea e <strong>que honra todos os compromissos com organização, qualidade e muito profissionalismo.</strong> Sempre atendendo as especificações dos clientes nos mais diversos trabalhos que são solicitados por nossas empresas parceiras, proporcionando um atendimento exclusivo e diferenciado.</p>
+            </div>
+            <div>
+                <p><strong>A R.A Soluções Industriais, </strong>tem em seus administradores uma experiência acumulada e adquirida com os ensinamento de seu pai, o  Sr. Gilson Costa, um conceituado ferramenteiro a sua época. Com isso, os irmãos Augusto de Lima e Rafael de Lima possuem na bagagem experiência <strong> em mais de 20 anos de trabalho dedicado neste segmento.</strong></p>
+            </div>
+            <div>
+                <p>Hoje nossa empresa conta com uma equipe de profissionais altamente capacitados, trazendo aos nossos clientes a certeza de um <strong>serviço bem qualificado estando comprometida com todas as metas e exigências estabelecidas.</strong></p>
+            </div>
+        </div>
+    </section>
+
+
+
     <section class="section5">
         <div class="infosEmpresa">
             <div>
@@ -211,27 +218,102 @@
             <div class="linha4"></div>
         </div>
 
-        <div class="contato">
-            <div class="informacoes">
-                <h2>Informações</h2>
-                <span>Para qualquer informação, dúvida ou comentário, esse é nosso whazapp: <br> (85) 4105-0050. Ou preencha o fomulário:</span>
-                <!-- entrar em contato (email js) -->
+    </section>
+
+    <section id="contactFormContainer">
+
+        <div class="entreEmContato">
+            <h1>Entre em contato</h1>
+            <span>Preencha o formulário ao lado e entraremos em contato com você o mais rápido possível.</span>
+            
+            <div class="cardIcon">
+                <div class="telefoneIcon"><i class="fa-solid fa-phone"></i></div>
+                <div class="texto">
+                    <h3>Telefone</h3>
+                    <p>(85) 9189-3754</p>
+                </div>
             </div>
-            <div class="locInfo">
-                <div class="mapa">
-
+            
+            <div class="cardIcon">
+                <div class="locationIcon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="texto">
+                    <h3>Localização</h3>
+                    <p>Av. Marcílio Dias (R. cinco), Itambé II, 272 Caucaia, CE 61602-150</p>
                 </div>
-
-                <div class="matriz">
+            </div>
+            
+            <div class="cardIcon">
+                <div class="emailIcon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="texto">
+                    <h3>Email</h3>
+                    <p> ferramentariaosirmaos@hotmail.com</p>
                 </div>
-
-                <div class="trabalheConosco">
-
+            </div>
+            
+            <div class="cardIcon">
+                <div class="zapIcon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="texto">
+                    <h3>Whatsapp</h3>
+                    <p>(85) 9189-3754</p>
                 </div>
+            </div>
+
+        <div class="redesSociais">
+            <h2>Nos siga nas redes sociais</h2>
+
+            <div class="icones">
+                <a href="https://www.instagram.com/ferramentariaosirmaos/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/ferramentaria.osirmaos.3/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/wix-com/home/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/wix" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
             </div>
         </div>
 
+        </div>
+
+        <form method="post" id="contact_form">
+            <h3>
+                Contatar
+            </h3>
+            <div class="linhaForm">
+                <div class="input-group"> 
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group"> 
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="input-group"> 
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="input-group"> 
+                <label for="message">Mensagem</label>
+                <textarea type="message" name="message" rows="5" required> </textarea>
+            </div>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+
     </section>
+
+
+    <footer>
+        <p class="copy">Desenvolvido por &copy; Gabriel C Costa</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/974f0fc2fc.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
